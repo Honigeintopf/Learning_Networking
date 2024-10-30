@@ -19,3 +19,12 @@ ASN numbering in a CLOS topology should follow a model to avoid routing problems
 1.  Leaves have unique ASN
 2.  Spines share an ASN
 3.  Exit switches share an ASN
+
+
+# BGP UNNUMMBERED
+
+Uses ipv6 fe80::: to connect to its neighbors automatically, this way no ip adresses beforehand are needed to configure.
+
+# BGP Numbered
+
+Router hass ~900k ip routes configured. It's the whole internet.
